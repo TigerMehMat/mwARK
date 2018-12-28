@@ -1,0 +1,11 @@
+{
+  "name": "mwARK",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/TigerMehMat/mwARK.git",
+  "author": "TigerMehMat <vovamehmat@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "nodemw": "^0.12.2"
+  }
+}
