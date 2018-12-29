@@ -1,4 +1,4 @@
-var redirectImages = require('./functions/redirect-images.js');
+const redirectImages = require('./functions/redirect-images.js');
 
 function runs(clientRU, clientEN, options){
   for(var index in options['functions']){

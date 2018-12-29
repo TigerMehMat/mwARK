@@ -1,5 +1,4 @@
 const Bot = require('nodemw'),
-  redirectImages = require('./functions/redirect-images.js'),
   runs = require('./functions.js');
 
 function startBot(options){
