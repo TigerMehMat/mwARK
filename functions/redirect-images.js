@@ -67,11 +67,13 @@ function addMapsRedirects(resObj, index, n, q, rNameIn, rNameOut, mapIndex = 0){
 }
 
 
-function delDoubleRadirects(resObj, index = 0, q = 0) {
-  if(index == 0) console.log('\nПоиск двойных перенаправлений...\n');
+function delDoubleRadirects(resObj, index = 0, q = 0, d = 0) {
+  if(index == 0) console.log('\nПоиск двойных перенаправлений и перенаправлений на несуществующие страницы...\n');
 	if(index >= resObj['len']){
     if(q==0) console.log('\u001b[32;1m\u001bхУдаление двойных перенаправлений не требуется\u001b[0m\n');
 		else console.log('\u001b[32;1m\u001bхУдаление двойных перенаправлений ('+q+') завершено\u001b[0m\n');
+    if(d==0) console.log('\u001b[32;1m\u001bхПустых страниц-целей не найдено\u001b[0m\n');
+		else console.log('\u001b[32;1m\u001bхНайдены пустые страницы-цели ('+d+') и были удалены из списка перенаправлений\u001b[0m\n');
 		recRedirects(resObj);
 		return;
 	}
@@ -79,14 +81,18 @@ function delDoubleRadirects(resObj, index = 0, q = 0) {
 	client.getArticle(resObj['out'][index],0, function(err, data){
 		if(err) console.error('err'+err);
 		else if(!data){
-			console.log('\u001b[33;1m\u001bхПеренаправление на пустую страницу ('+resObj['out'][index]+')\u001b[0m');
+			console.log('\u001b[33;1m\u001bхПеренаправление на пустую страницу ('+resObj['in'][index]+' → '+resObj['out'][index]+')\u001b[0m');
+      resObj['in'].splice(index,1);
+      resObj['out'].splice(index,1);
+      resObj['len']--;
+      d++;
 		} else if(isRedirect(data)){
 			console.log('Найдено перенаправление на странице '+resObj['out'][index]+' → '+redirectTo(data));
 			resObj['out'][index] = redirectTo(data);
 			q++;
 		}
 		index++;
-		delDoubleRadirects(resObj,index,q);
+		delDoubleRadirects(resObj,index,q,d);
 	});
 }
 
