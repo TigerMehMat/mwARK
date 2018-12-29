@@ -164,10 +164,12 @@ function getPages(pageObj){
 	for(var i=0;i<pageObj.length;i++){
 		if (pageObj[i].trim() == "") continue;
     data = pageObj[i].split('|');
-		pagesIn[g] = addPrefixes(data[0]);
-		pagesOut[g] = addPrefixes(data[1]);
-    console.log('\u001b[30;1m\u001bх'+pagesIn[g]+'\u001b[0m → \u001b[30;1m\u001bх'+pagesOut[g]+'\u001b[0m');
-    g++;
+    for(var j = 0;j<data.length-1;j++){
+		    pagesIn[g] = addPrefixes(data[j]);
+        pagesOut[g] = addPrefixes(data[data.length-1]);
+        console.log('\u001b[30;1m\u001bх'+pagesIn[g]+'\u001b[0m → \u001b[30;1m\u001bх'+pagesOut[g]+'\u001b[0m');
+        g++;
+    }
 	}
 	return {
 		'in': pagesIn,
