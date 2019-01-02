@@ -12,8 +12,8 @@ function res(client1, redirects){
 function addMaps(resObj, index = 0, n = 0, q = 0) {
   if(index == 0) console.log('\nПоиск шаблонов-карт...\n');
 	if(index >= resObj['len']){
-    if(n==0) console.log('\u001b[32;1m\u001bхШаблоны-карты не найдены\u001b[0m\n');
-		else console.log('\n\u001b[32;1m\u001bхДобавление карт ('+q+') из всех шаблонов-команд ('+n+') завершено\u001b[0m\n\n');
+    if(n==0) console.hideText('Шаблоны-карты не найдены\n');
+		else console.ok('Добавление карт ('+q+') из всех шаблонов-команд ('+n+') завершено\n\n');
 		delDoubleRadirects(resObj);
 		return;
 	}
@@ -50,7 +50,7 @@ function addMapsRedirects(resObj, index, n, q, rNameIn, rNameOut, mapIndex = 0){
     }
     symb = (mapIndex == mapRedirect.maps.length-1)?'└':'├';
     if(typeof(data)=='undefined'){
-      console.log(' '+symb+' Карта '+mapRedirect.maps[mapIndex]+' не используется');
+      console.hideText(' '+symb+' Карта '+mapRedirect.maps[mapIndex]+' не используется');
       mapIndex++;
       addMapsRedirects(resObj, index, n, q, rNameIn, rNameOut, mapIndex);
     } else {
@@ -68,12 +68,12 @@ function addMapsRedirects(resObj, index, n, q, rNameIn, rNameOut, mapIndex = 0){
 
 
 function delDoubleRadirects(resObj, index = 0, q = 0, d = 0) {
-  if(index == 0) console.log('\nПоиск двойных перенаправлений и перенаправлений на несуществующие страницы...\n');
+  if(index == 0) console.hideText('\nПоиск двойных перенаправлений и перенаправлений на несуществующие страницы...\n');
 	if(index >= resObj['len']){
-    if(q==0) console.log('\u001b[32;1m\u001bхУдаление двойных перенаправлений не требуется\u001b[0m\n');
-		else console.log('\u001b[32;1m\u001bхУдаление двойных перенаправлений ('+q+') завершено\u001b[0m\n');
-    if(d==0) console.log('\u001b[32;1m\u001bхПустых страниц-целей не найдено\u001b[0m\n');
-		else console.log('\u001b[32;1m\u001bхНайдены пустые страницы-цели ('+d+') и были удалены из списка перенаправлений\u001b[0m\n');
+    if(q==0) console.hideText('Удаление двойных перенаправлений не требуется\n');
+		else console.ok('Удаление двойных перенаправлений ('+q+') завершено\n');
+    if(d==0) console.hideText('Пустых страниц-целей не найдено\n');
+		else console.warning('Найдены пустые страницы-цели ('+d+') и были удалены из списка перенаправлений\n');
 		recRedirects(resObj);
 		return;
 	}
@@ -81,7 +81,7 @@ function delDoubleRadirects(resObj, index = 0, q = 0, d = 0) {
 	client.getArticle(resObj['out'][index],0, function(err, data){
 		if(err) console.error('err'+err);
 		else if(!data){
-			console.log('\u001b[33;1m\u001bхПеренаправление на пустую страницу ('+resObj['in'][index]+' → '+resObj['out'][index]+')\u001b[0m');
+			console.warning('Перенаправление на пустую страницу ('+resObj['in'][index]+' → '+resObj['out'][index]+')');
       resObj['in'].splice(index,1);
       resObj['out'].splice(index,1);
       resObj['len']--;
@@ -114,7 +114,7 @@ function recRedirects(resObj, index = 0, pro = 0, cre  = 0, recre = 0){ // За�
     console.log('\n\nНачинается перезапись...\n');
   }
 	if(index >= resObj['len']){
-		console.log('\n\u001b[32;1m\u001bхВсе ссылки ('+resObj['len']+') обработаны. '+pro+' пропущено, '+cre+' записано (из них '+recre+' перезаписано)\u001b[0m\n\n');
+		console.ok('\nВсе ссылки ('+resObj['len']+') обработаны. '+pro+' пропущено, '+cre+' записано (из них '+recre+' перезаписано)\n\n');
 		return;
 	}
 	client.getArticle(resObj['in'][index], function(err,data){
@@ -125,12 +125,12 @@ function recRedirects(resObj, index = 0, pro = 0, cre  = 0, recre = 0){ // За�
 			if(data){
 				if(isRedirect(data)) {
 					if(redirectTo(data) == resObj['out'][index]){
-						console.log('\u001b[30;1m\u001bхx    Перенаправление '+resObj['in'][index]+' → '+resObj['out'][index]+' уже существует \u001b[0m');
+						console.hideText('x    Перенаправление '+resObj['in'][index]+' → '+resObj['out'][index]+' уже существует');
 					} else {
 						isrewrite = true;
 					}
 				} else {
-					console.log('\u001b[31;1m\u001bхх ! Страница '+resObj['in'][index]+' уже существует, пропуск ('+data.substr(0,20)+')\u001b[0m');
+					console.warning('х ! Страница '+resObj['in'][index]+' уже существует, пропуск ('+data.substr(0,20)+')');
 				}
 			}
 			if(!data||isrewrite){
@@ -140,7 +140,7 @@ function recRedirects(resObj, index = 0, pro = 0, cre  = 0, recre = 0){ // За�
 					}
 					else{
 						if(isrewrite){
-              console.log('\u001b[33;1m\u001bхv!! Страница '+resObj['in'][index]+' уже существует, но является перенаправлением.\u001b[0m');
+              console.warning('v!! Страница '+resObj['in'][index]+' уже существует, но является перенаправлением.');
               recre++;
             }
 						console.log('v   Перенаправление '+resObj['in'][index]+' → '+resObj['out'][index]+' добавлено');
@@ -167,7 +167,7 @@ function getPages(pageObj){
     for(var j = 0;j<data.length-1;j++){
 		    pagesIn[g] = addPrefixes(data[j]);
         pagesOut[g] = addPrefixes(data[data.length-1]);
-        console.log('\u001b[30;1m\u001bх'+pagesIn[g]+'\u001b[0m → \u001b[30;1m\u001bх'+pagesOut[g]+'\u001b[0m');
+        console.log(pagesIn[g] + ' → '+pagesOut[g]);
         g++;
     }
 	}
@@ -180,7 +180,7 @@ function getPages(pageObj){
 
 function printRedirects(pageObj){
   for(var i=0;i<pageObj['in'].length;i++){
-    console.log('\u001b[30;1m\u001bх'+pageObj['in'][i]+'\u001b[0m → \u001b[30;1m\u001bх'+pageObj['out'][i]+'\u001b[0m');
+    console.log(pageObj['in'][i] + ' → '+pageObj['out'][i]);
   }
   return;
 }

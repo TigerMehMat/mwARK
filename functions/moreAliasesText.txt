@@ -1,0 +1,63 @@
+The Center | Центр
+Ragnarok | Рагнарёк
+Gamma | Гамма
+Beta | Бета
+Alpha | Альфа
+Skeletal | Скелетные
+Other | Другие
+Event Creatures | Существа Событий
+Bosses | Боссы
+Aerial | Летуны
+Terrestrial | Наземные
+Titans | Титаны
+Mechanical | Механизмы
+Aquatic | Водные
+Caverns | Пещерный
+Minion | Миньон
+Mega | Мега
+Sanctuary | Заповедник
+Poison | Ядовитая
+Lightning | Грозовая
+Ice | Ледяная
+Forest | Лесная
+Fire | Огненная
+Surface | Поверхность
+Subterranean | Пещерные
+Subterranean]] | Пещерный]]
+Elemental | Элементный
+Queen | Королева
+Royal | Королевский
+Fantasy | Фантастика
+Enraged Creatures | Разъярённые Существа
+Tek Creatures | Тек Существа
+Corrupted Creatures | Поражённые Существа
+Aberrant Creatures | Аберрантные Существа
+Soldier | Солдат
+Drone | Трутень
+Water | Водяной
+Oil | Нефтяной
+Diseased | Инфицированная
+Underwater | Глубоководный
+Fish | Рыба
+Birds | Птицы
+Reptiles | Рептилии
+Amphibians | Амфибии
+The Islи | The Island
+and | и
+Omnivores | Всеядные
+Polar | Полярный
+Herbivores | Травоядные
+Snow Cave | Снежная Пещера
+Carnivores | Хищники
+Mammals | Млекопитающие
+Synapsids | Синапсиды
+Piscivores | Рыбоядные
+Dinosaurs | Динозавры
+Tek Cave | Тек Пещера
+Alpha Predators | Альфа Существа
+Invertebrates | Беспозвоночные
+Fossorial | Ископаемые
+Italics denote creatures that have not yet been released | Существа помеченные курсивом ещё не выпущены
+See also | Смотрите Так же
+Dino_Dossiers | Досье Динозавров
+Gallery of Dino Dossiers | Галерея Досье Динозавров

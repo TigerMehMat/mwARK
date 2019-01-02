@@ -5,4 +5,4 @@ function isMapRedirect(t){// Проверяет, является ли стро�
 }
 
 module.exports.isMapRedirect = isMapRedirect;
-module.exports.maps = ['The_Island','Aberration','Extinction', 'Scorched_Earth', 'The_Center', 'Ragnarok'];
+  module.exports.maps = ['The_Island','Aberration','Extinction', 'Scorched_Earth', 'The_Center', 'Ragnarok'];

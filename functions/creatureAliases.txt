@@ -1,0 +1,355 @@
+Overseer | Надзиратель
+Overseer (Gamma) | Надзиратель (Гамма)
+Overseer (Beta) | Надзиратель (Бета)
+Overseer (Alpha) | Надзиратель (Альфа)
+Forest Titan | Лесной Титан
+Ice Titan | Ледяной Титан
+Desert Titan | Пустынный Титан
+Broodmother Lysrix | Праматерь
+Broodmother Lysrix (Gamma) | Праматерь (Гамма)
+Broodmother Lysrix (Beta) | Праматерь (Бета)
+Broodmother Lysrix (Alpha) | Праматерь (Альфа)
+Broodmother Lysrix (Gamma) - The Center Arena | Праматерь (Гамма) - Арена Центр
+Broodmother Lysrix (Beta) - The Center Arena | Праматерь (Бета) - Арена Центр
+Broodmother Lysrix (Alpha) - The Center Arena | Праматерь (Альфа) - Арена Центр
+Broodmother Guardian |  Страж Праматерь
+Broodmother Lysrix (Gamma) - Overseer Arena | Праматерь (Гамма) - Арена Вознесения
+Broodmother Lysrix (Beta) - Overseer Arena | Праматерь (Бета) - Арена Вознесения
+Broodmother Lysrix (Alpha) - Overseer Arena | Праматерь (Альфа) - Арена Вознесения
+Dragon | Дракон
+Dragon (Gamma) | Дракон (Гамма)
+Dragon (Beta) | Дракон (Бета)
+Dragon (Alpha) | Дракон (Альфа)
+Dragon (Gamma) - Ragnarok Arena | Дракон (Гамма) - Арена Рагнарёк
+Dragon (Beta) - Ragnarok Arena | Дракон (Бета) - Арена Рагнарёк
+Dragon (Alpha) - Ragnarok Arena | Дракон (Альфа) - Арена Рагнарёк
+Dragon Guardian | Страж Дракон
+Dragon (Gamma) - Overseer Arena | Дракон (Гамма) - Арена Вознесения
+Dragon (Beta) - Overseer Arena | Дракон (Бета) - Арена Вознесения
+Dragon (Alpha) - Overseer Arena | Дракон (Альфа) - Арена Вознесения
+Megapithecus | Мегапитек
+Megapithecus (Gamma) | Мегапитек (Гамма)
+Megapithecus (Beta) | Мегапитек (Бета)
+Megapithecus (Alpha) | Мегапитек (Альфа)
+Megapithecus (Gamma) - The Center Arena | Мегапитек (Гамма) - Арена Центр
+Megapithecus (Beta) - The Center Arena | Мегапитек (Бета) - Арена Центр
+Megapithecus (Alpha) - The Center Arena | Мегапитек (Альфа) - Арена Центр
+Megapithecus Guardian | Мегапитек Страж
+Megapithecus (Gamma) - Overseer Arena | Мегапитек (Гамма) - Арена Вознесения
+Megapithecus (Beta) - Overseer Arena | Мегапитек (Бета) - Арена Вознесения
+Megapithecus (Alpha) - Overseer Arena | Мегапитек (Альфа) - Арена Вознесения
+Manticore | Мантикора
+Manticore (Gamma) | Мантикора (Гамма)
+Manticore (Beta) | Мантикора (Бета)
+Manticore (Alpha) | Мантикора (Альфа)
+Manticore (Gamma) - Ragnarok Arena | Мантикора (Гамма) - Арена Рагнарёк
+Manticore (Beta) - Ragnarok Arena | Мантикора (Бета) - Арена Рагнарёк
+Manticore (Alpha) - Ragnarok Arena | Мантикора (Альфа) - Арена Рагнарёк
+Rockwell | Роквелл
+Rockwell (Gamma) | Роквелл (Гамма)
+Rockwell (Beta) | Роквелл (Бета)
+Rockwell (Alpha) | Роквелл (Альфа)
+RockwellTentacle | Щупальце Роквелла
+RockwellTentacle (Gamma) | Щупальце Роквелла (Гамма)
+RockwellTentacle (Beta) | Щупальце Роквелла (Бета)
+RockwellTentacle (Alpha) | Щупальце Роквелла (Альфа)
+Allosaurus | Аллозавр
+Carnotaurus | Карнотавр
+Compsognathus | Компсогнат
+Compy | Компсогнат
+Dilophosaur | Дилофозавр
+Giganotosaurus | Гигантозавр
+Giganotosaurus - Tek Cave | Гигантозавр - Тек Пещера
+Megalosaurus | Мегалозавр
+Megalosaurus - Tek Cave | Мегалозавр - Тек Пещера
+Microraptor | Микрораптор
+Oviraptor | Овираптор
+Raptor | Раптор
+Rex | Тираннозавр
+Spino | Спинозавр
+Spinosaur | Спинозавр
+Troodon | Троодон
+Velonasaur | Велоназавр
+Yutyrannus | Ютираннус
+Ankylosaurus | Анкилозавр
+Brontosaurus | Бронтозавр
+Diplodocus | Диплодок
+Gallimimus | Галлимим
+Iguanodon | Игуанодон
+Kentrosaurus | Кентрозавр
+Morellatops | Морелатопс
+Pachycephalosaurus | Пахицефалозавр
+Pachy | Пахицефалозавр
+Pachyrhinosaurus | Пахиринозавр
+Parasaur | Паразауролоф
+Pegomastax | Пегомастакс
+Stegosaurus | Стегозавр
+Therizinosaur | Теризинозавр
+Titanosaur | Титанозавр
+Triceratops | Трицератопс
+Baryonyx | Барионикс
+Basilosaurus | Базилозавр
+Dimetrodon | Диметродон
+Direwolf | Лютоволк
+Hyaenodon | Гиенодон
+Purlovia | Пурловия
+Purlovia - Snow Cave | Пурловия - Снежная Пещера
+Roll Rat | Кротокрыс
+Sabertooth | Саблезуб
+Thylacoleo | Сумчатый Лев
+Castoroides | Кастероидерс
+Chalicotherium | Халикотерий
+Doedicurus | Дедикурус
+Equus | Эквус
+Gigantopithecus | Гигантопитек
+Jerboa | Тушканчик
+Lystrosaurus | Листрозавр
+Mammoth | Мамонт
+Megaloceros | Большерогий Олень
+Ovis | Овис
+Paraceratherium | Парацератерий
+Phiomia | Фиомия
+Procoptodon | Прокоптодон
+Woolly Rhino | Шерстистый Носорог
+Daeodon | Деодон
+Direbear | Свирепый Медведь
+Dire Bear | Свирепый Медведь
+Polar Bear | Полярный Медведь
+Human | Человек
+Megatherium | Мегатерий
+Mesopithecus | Мезопитек
+Moschops | Мосхопс
+Onyc | Оник
+Otter | Выдра
+Beelzebufo | Жаба
+Carbonemys | Карбонемис
+Diplocaulus | Диплокаулус
+Kaprosuchus | Капрозух
+Megalania | Мегалания
+Sarco | Саркозух
+Thorny Dragon | Шипастый Дракон
+Titanoboa | Титанобоа
+Ichthyosaurus | Ихтиозавр
+Liopleurodon | Лиоплеврадон
+Mosasaurus | Мозазавр
+Mosasaur - Caverns | Мозазавр - Пещерный
+Plesiosaur | Плезиозавр
+Dimorphodon | Диморфодон
+Pteranodon | Птеранодон
+Pteranodon - Gamma Dragon Arena | Птеранодон - Гамма Арена Дракона
+Pteranodon - Beta Dragon Arena | Птеранодон - Бета Арена Дракона
+Pteranodon - Alpha Dragon Arena | Птеранодон - Альфа Арена Дракона
+Quetzal | Кетцалькоатль
+Tapejara | Тапежара
+Dodo | Додо
+Hesperornis | Гесперорнис
+Kairuku | Кайруку
+Terror Bird | Ужастная Птица
+Archaeopteryx | Археоптерикс
+Argentavis | Аргентавис
+Ichthyornis | Ихтиорнис
+Pelagornis | Пелагорнис
+Snow Owl | Снежная Сова
+Vulture | Гриф
+Angler | Удильщик
+Anglerfish | Удильщик
+Coelacanth | Целакант
+Coelacanth - Underwater | Целакант - Глубоководный
+Dunkleosteus | Дунклеостей
+Electrophorus | Электрофорус
+Leedsichthys | Лидсихтис
+Manta | Манта
+Megalodon | Мегалодон
+Piranha | Пиранья
+Salmon | Саблезубый Лосось
+Sabertooth Salmon | Саблезубый Лосось
+Achatina | Ахатина
+Leech | Пиявка
+Diseased Leech | Инфицированная Пиявка
+Mantis | Богомол
+Pulmonoscorpius | Скорпион
+Araneo | Аранео
+Arthropluera | Артроплевра
+Dung Beetle | Скарабей
+Giant Bee | Гигантская Пчела
+Giant Queen Bee | Королева Гигантских Пчел
+Glowbug | Светлячок
+Jug Bug | Жук-кувшинчик
+Oil Jug Bug | Нефтяной Жук-кувшинчик
+Water Jug Bug | Водяной Жук-кувшинчик
+Lymantria | Шелкопряд
+Meganeura | Меганевра
+Titanomyrma | Титаномуравей
+Titanomyrma Drone | Титаномуравей Трутень
+Titanomyrma Soldier | Титаномуравей Солдат
+Ammonite | Аммонит
+Cnidaria | Книдария
+Eurypterid | Эвриптерид
+Trilobite | Трилобит
+Tusoteuthis | Тусотеутис
+Tusoteuthis - Caverns | Тусотеутис - Пещерный
+Tek Parasaur | Тек Паразавр
+Tek Raptor | Тек Раптор
+Tek Rex | Тек Тираннозавр
+Tek Stegosaurus | Тек Стегозавр
+Tek Quetzal | Тек Кетцалькоатль
+Bulbdog | Лампадог
+Corrupt Tumor | Повреждённая Опухоль
+Direbear - LifesLabyrinth | Свирепый Медведь - Лабиринт Жизни
+Direwolf - LifesLabyrinth | Лютоволк - Лабиринт Жизни
+Glowtail | Лучехвост
+Lava Elemental | Лавовый Элементаль
+Megaloceros - LifesLabyrinth | Большерогий Олень - Лабиринт Жизни
+Ravager | Опустошитель
+Rock Elemental | Горный Элементаль
+Rock Elemental - Manticore Arena | Горный Элементаль - Арена Мантикоры
+Rubble Golem | Каменный Голем
+Shinehorn | Светорог
+Unicorn | Единорог
+Basilisk | Василиск
+Deathworm | Червь Смерти
+Deathworm - Manticore Arena | Червь смерти - Арена Мантикоры
+Desert Titan Flock | Стая Пустынного Титана
+Featherlight | Яснокрыл
+Gacha | Гача
+Gasbags | Газбагс
+Griffin | Грифон
+Griffin - Ragnarok Arena | Грифон - Арена Рагнарёк
+Royal Griffin | Королевский Грифон
+Iceworm Male | Самец Ледяного Червя
+Managarmr | Манагарм
+Nameless | Безымянный
+Nameless - Rockwell Arena | Безымянный - Арена Роквелла
+Nameless - The Surface | Безымянный - Поверхность
+Phoenix | Феникс
+Rock Drake | Скальный Дрейк
+Seeker | Искатель
+Seeker - The Surface | Искатель - Поверхность
+Wyvern | Виверна
+Fire Wyvern | Огненная Виверна
+Forest Wyvern | Лесная Виверна
+Ice Wyvern | Ледяная Виверна
+Lightning Wyvern | Грозовая Виверна
+Poison Wyvern | Ядовитая Виверна
+Karkinos | Каркинос
+Lamprey | Минога
+Alpha Carnotaurus | Альфа Карнотавр
+Alpha Raptor | Альфа Раптор
+Alpha T-Rex | Альфа Тираннозавр
+Yeti | Йети
+Defense Unit | Защитная Единица
+Defense Unit - Beta Overseer Arena | Защитная Единица - Бета Арена Вознесения
+Defense Unit - Alpha Overseer Arena | Защитная Единица - Альфа Арена Вознесения
+Defense Unit - Sanctuary | Защитная Единица - Заповедник
+Enforcer | Инфорсер
+Mek | Мех
+Mega Mek | Мега Мех
+Attack Drone | Атакующий Дрон
+Attack Drone - Beta Overseer Arena | Атакующий Дрон - Бета Арена Вознесения
+Attack Drone - Alpha Overseer Arena | Атакующий Дрон - Альфа Арена Вознесения
+Scout | Разведчик
+Reaper | Жнец
+Reaper King | Король Жнец
+Elemental Reaper King | Элементный Король Жнец
+Subterranean Reaper King | Подземный Король Жнец
+Surface Reaper King | Поверхностный Король Жнец
+Reaper Queen | Королева Жнецов
+King Titan | Король Титанов
+Gamma King Titan | Гамма Король Титанов
+Beta King Titan | Бета Король Титанов
+Alpha King Titan | Альфа Король Титанов
+Skeletal Bronto | Скелетный Бронтозавр
+Skeletal Carnotaurus | Скелетный Карнотавр
+Skeletal Giganotosaurus | Скелетный Гигантозавр
+Skeletal Jerboa | Скелетный Тушканчик
+Skeletal Quetzal | Скелетный Кетцалькоатль
+Skeletal Raptor | Скелетный Раптор
+Skeletal Rex | Скелетный Тираннозавр
+Skeletal Stego | Скелетный Стегозавр
+Skeletal Trike | Скелетный Трицератопс
+Bone Fire Wyvern | Костяная Огненная Виверна
+Bunny Dodo | Банни-Додо
+Bunny Oviraptor | Банни-Овираптор
+DodoRex | ДодоРекс
+Dodo Wyvern | Додо Виверна
+GachaClaus | ГачаКлаус
+Super Turkey | Супер Индюшка
+Zombie Wyvern | Зомби-виверна
+Zombie Fire Wyvern | Огненная Зомби-виверна
+Zombie Lightning Wyvern | Грозовая Зомби-виверна
+Zombie Poison Wyvern | Ядовитая Зомби-виверна
+Zomdodo | Зомби-додо
+Alpha Basilisk | Альфа Василиск
+Alpha Deathworm | Альфа Червь Смерти
+Alpha Fire Wyvern | Альфа Огненная Виверна
+Alpha Surface Reaper King | Альфа Поверхностный Король Жнец
+Iceworm Queen | Королева Ледяных Червей
+Alpha Karkinos | Альфа Каркинос
+Alpha Leedsichthys | Альфа Лидсихтис
+Alpha Megalodon | Альфа Мегалодон
+Alpha Mosasaur | Альфа Мозазавр
+Alpha Mosasaur - Caverns | Альфа Мозазавр - Пещерный
+Alpha Tusoteuthis | Альфа Тусотеутис
+Aberrant Achatina | Аберрантная Ахатина
+Aberrant Ankylosaurus | Аберрантный Анкилозавр
+Aberrant Arthropluera | Аберрантная Артроплевра
+Aberrant Araneo | Аберрантный Аранео
+Aberrant Carnotaurus | Аберрантный Карнотавр
+Aberrant Diplodocus | Аберрантный Диплодок
+Aberrant Dire Bear | Аберрантный Свирепый Медведь
+Aberrant Dodo | Аберрантный Додо
+Aberrant Doedicurus | Аберрантный Дедикурус
+Aberrant Dung Beetle | Аберрантный Скарабей
+Aberrant Equus | Аберрантный Эквус
+Aberrant Gigantopithecus | Аберрантный Гигантопитек
+Aberrant Iguanodon | Аберрантный Игуанодок
+Aberrant Lystrosaurus | Аберрантный Листрозавр
+Aberrant Megalania | Аберрантная Мегалания
+Aberrant Megalosaurus | Аберрантный Мегалозавр
+Aberrant Moschops | Аберрантный Мосхопс
+Aberrant Ovis | Аберрантный Овис
+Aberrant Parasaur | Аберрантный Паразавр
+Aberrant Pulmonoscorpius | Аберрантный Скорпион
+Aberrant Raptor | Аберрантный Раптор
+Aberrant Spino | Аберрантный Спинозавр
+Aberrant Stegosaurus | Аберрантный Стегозавр
+Aberrant Titanoboa | Аберрантная Титанобоа
+Aberrant Triceratops | Аберрантный Трицератопс
+Aberrant Dimorphodon | Аберрантный Диморфодон
+Aberrant Meganeura | Аберрантная Меганевра
+Aberrant Purlovia | Аберрантная Пурловия
+Aberrant Anglerfish | Аберрантный Удильщик
+Aberrant Baryonyx | Аберрантный Барионикс
+Aberrant Beelzebufo | Аберрантная Жаба
+Aberrant Carbonemys | Аберрантный Карбонемис
+Abberant Coelacanth | Аберрантный Целакант
+Aberrant Cnidaria | Аберрантная Книдария
+Aberrant Dimetrodon | Аберрантный Диметродон
+Aberrant Diplocaulus | Аберрантный Диплокаулус
+Aberrant Electrophorus | Аберрантный Электрофорус
+Aberrant Manta | Аберрантная Манта
+Aberrant Otter | Аберрантная Выдра
+Aberrant Paraceratherium | Аберрантный Парацератерий
+Aberrant Piranha | Аберрантная Пиранья
+Aberrant Salmon | Аберрантный Саблезубый Лосось
+Aberrant Sarco | Аберрантный Саркозух
+Aberrant Trilobite | Аберрантный Трилобит
+Corrupted Arthropluera | Поражённая Артроплевра
+Corrupted Carnotaurus | Поражённый Карнотавр
+Corrupted Chalicotherium | Поражённый Халикотерий
+Corrupted Dilophosaur | Поражённый Дилофозавр
+Corrupted Giganotosaurus | Поражённый Гигантозавр
+Corrupted Paraceratherium | Поражённый Парацератерий
+Corrupted Raptor | Поражённый Раптор
+Corrupted Rex | Поражённый Тираннозавр
+Corrupted Rock Drake | Поражённый Скальный Дрейк
+Corrupted Spino | Поражённый Спинозавр
+Corrupted Stegosaurus | Поражённый Стегозавр
+Corrupted Triceratops | Поражённый Трицератопс
+Corrupted Dimorphodon | Поражённый Диморфодон
+Corrupted Pteranodon | Поражённый Птеранодон
+Corrupted Reaper King | Поражённый Король-Жнец
+Corrupted Wyvern | Поражённая Виверна
+
+Enraged Corrupted Rex | Разъярённый Поражённый Тираннозавр
+Enraged Triceratops | Разъярённый Трицератопс
