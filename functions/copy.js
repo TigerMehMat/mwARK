@@ -39,6 +39,9 @@ function wikiCopy(clientEN, clientRU, options){
         case "translateCreaturesIcons":
           data = translateText(data, ['moreAliasesIcons.txt', 'creatureAliases.txt']);
           break;
+        case "translateSaddle":
+          data = translateText(data, ['SaddleAliases.txt']);
+          break;
       }
       console.log('Найдена и обработана встроенная функция для текста');
     }
